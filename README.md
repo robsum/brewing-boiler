@@ -2,7 +2,7 @@
 Arduino and PC (.NET application) codes used in my microprocessor controlled brewing boiler for domestic beer production.
 
 ### arduino-code
-Arduino Uno (Atmega382) code for my brewing boiler. Code was written in CLion (with Platform.io), but you can just put it in default ArduinoIDE and it should work as well.
+Arduino Uno (Atmega328) code for my brewing boiler. Code was written in CLion (with Platform.io), but you can just put it in default ArduinoIDE and it should work as well.
 
 Program generates PWM digital signal for heating elements and on/off signal for a motor which moves an agitator. Besides, it read DS18B20 temperature sensor using One Wire interface. It also receives and sends bytes via serial (USB) from/to computer.
 
