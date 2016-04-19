@@ -4,7 +4,7 @@ Arduino and PC (.NET application) codes used in my microprocessor controlled bre
 ### arduino-code
 Arduino Uno (Atmega382) code for my brewing boiler. Code was written in CLion (with Platform.io), but you can just put it in default ArduinoIDE and it should work as well.
 
-Program generates PWM digital signal for heating elements and on/off signal for a motor which moves an agitator. Besides, it read DS18B20 temperature sensor using One Wire interface. It also receives and sends bytes via serial (USB) from/to comuter.
+Program generates PWM digital signal for heating elements and on/off signal for a motor which moves an agitator. Besides, it read DS18B20 temperature sensor using One Wire interface. It also receives and sends bytes via serial (USB) from/to computer.
 
 ### pc-code
 PC application was written in MS Visual Studio 2015. It's a WinForms application and it communicates with Arduino's code.
